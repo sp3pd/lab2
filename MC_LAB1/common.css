@@ -1,0 +1,27 @@
+li {
+    list-style-type: none;
+}
+l
+input {
+    width: 45%;
+    margin-left: 10px;
+    float:left;
+}
+fieldset {
+border:1px solid green;
+display: inline-block;
+width:auto;
+clear:both;
+float:left;
+  padding: 1em;
+  font:80%/1 sans-serif;
+  }
+label {
+  float:left;
+ width:25%;
+  margin-right:20px;
+  padding-top:0.2em;
+  text-align:right;
+  font-weight:bold;
+  
+  }

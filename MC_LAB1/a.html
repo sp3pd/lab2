@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
+<script src="jquery-1.10.2.min.js"></script>
+<script src="commonscript.js"></script>
+<link rel="stylesheet" type="text/css" href="common.css">
+</head>
+<body>
+<h1>Lab 2</h1>
+<h2>Implementing jQuery and Webservices</h2>
+<form action="b.html" onSubmit="return ValidateForm();">
+
+
+<fieldset id="Credentials">
+    <legend>Credentials</legend>
+    <ul>
+        <li>
+            <label for="username">UserName</label>
+            <input type="text" name="username" required="required" />
+        </li>
+        <li>
+            <label for="password">Password</label>
+            <input type="password" name="Password" required="required"/>
+        </li>
+        
+    </ul>
+</fieldset>
+<fieldset id="address">
+    <legend>Address</legend>
+    <ul>
+        <li>
+            <label for="addressLine1">AddressLine1</label>
+            <input type="text" id="addressLine1" required="required" />
+        </li>
+        <li>
+            <label for="addressLine2">AddressLine2</label>
+            <input type="text" id="addressLine2" />
+        </li>
+        <li>
+            <label for="addressLine3">AddressLine3</label>
+            <input type="text" id="addressLine3" />
+        </li>
+        <li>
+            <label for="city">City</label>
+            <input type="text" id="city" disabled="true" />
+        </li>
+        <li>
+            <label for="state">State</label>
+            <input type="text" id="state" disabled="true" />
+        </li>
+          <li>
+            <label for="zipcode">ZipCode</label>
+            <input type="text" id="zipcode" required="required" />
+            
+        </li>
+        <li>
+            <label for="country">Country</label>
+            <input type="text" id="country" required="required"/>
+        </li>
+        
+        
+    </ul>
+</fieldset>
+<fieldset>
+<legend>Actions</legend>
+<ul>
+<li><a href="javascript:getCityandState();" id="GetCity">GetCityandState</a><input type="submit" id="SubmitButton" value="Submit" disabled="true"></li></ul>
+</fieldset>
+
+    </form>
+	</body>
+	</html>
